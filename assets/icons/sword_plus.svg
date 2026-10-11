@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- фиолетовое свечение вокруг клинка -->
+  <g transform="rotate(45 64 64)" fill="#a066ff">
+    <path d="M64 -22 L88 2 L88 88 L40 88 L40 2 Z" opacity="0.25"/>
+    <path d="M64 -18 L85 4 L85 86 L43 86 L43 4 Z" opacity="0.3"/>
+  </g>
+  <g stroke="#241a33" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="rotate(45 64 64)">
+      <!-- широкий клинок -->
+      <path d="M64 -14 L81 4 L81 84 L47 84 L47 4 Z" fill="#efe8ff"/>
+      <path d="M64 -14 L81 4 L81 84 L64 84 Z" fill="#cdbcf7" stroke="none"/>
+      <path d="M64 -14 L81 4 L81 84 L47 84 L47 4 Z" fill="none"/>
+      <!-- дол с рунами -->
+      <rect x="59" y="6" width="10" height="72" rx="3" fill="#8a5cf0" stroke-width="3"/>
+      <path d="M64 16 l3 4 l-3 4 l-3 -4 Z M64 36 l3 4 l-3 4 l-3 -4 Z M64 56 l3 4 l-3 4 l-3 -4 Z" fill="#f3e6ff" stroke="none"/>
+      <!-- гарда с загнутыми концами -->
+      <path d="M16 78 L28 84 L100 84 L112 78 L106 98 L94 96 L34 96 L22 98 Z" fill="#7b4bd6"/>
+      <path d="M28 89 L100 89" fill="none" stroke="#a983f5" stroke-width="3"/>
+      <path d="M64 80 L74 90 L64 100 L54 90 Z" fill="#e2b8ff"/>
+      <!-- рукоять -->
+      <rect x="56" y="98" width="16" height="16" rx="3" fill="#3d2a63"/>
+      <path d="M56 103 L72 106 M56 109 L72 112" stroke="#6a4ab0" stroke-width="3"/>
+      <!-- навершие-кристалл -->
+      <path d="M64 110 L75 119 L64 130 L53 119 Z" fill="#b57bff"/>
+    </g>
+  </g>
+  <!-- искры -->
+  <g fill="#ffffff" stroke="#8a4dff" stroke-width="2" stroke-linejoin="round">
+    <path d="M24 22 l3 9 l9 3 l-9 3 l-3 9 l-3 -9 l-9 -3 l9 -3 Z"/>
+    <path d="M106 96 l3 7 l7 3 l-7 3 l-3 7 l-3 -7 l-7 -3 l7 -3 Z"/>
+    <path d="M100 40 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 l5 -2 Z"/>
+  </g>
+</svg>

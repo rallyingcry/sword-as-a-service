@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <g stroke="#241a33" stroke-width="4" stroke-linejoin="round">
+    <!-- серебряный обод -->
+    <path d="M14 14 L114 14 L114 58 Q114 98 64 124 Q14 98 14 58 Z" fill="#d7dde8"/>
+    <path d="M64 14 L114 14 L114 58 Q114 98 64 124 Z" fill="#aab4c6" stroke="none"/>
+    <path d="M14 14 L114 14 L114 58 Q114 98 64 124 Q14 98 14 58 Z" fill="none"/>
+    <!-- фиолетовое поле -->
+    <path d="M24 24 L104 24 L104 58 Q104 90 64 112 Q24 90 24 58 Z" fill="#7b4bd6"/>
+    <path d="M64 24 L104 24 L104 58 Q104 90 64 112 Z" fill="#5f35b5" stroke="none"/>
+    <path d="M24 24 L104 24 L104 58 Q104 90 64 112 Q24 90 24 58 Z" fill="none"/>
+    <!-- серебряный шеврон -->
+    <path d="M32 54 L64 78 L96 54 L96 68 L64 92 L32 68 Z" fill="#e6ebf3"/>
+    <!-- умбон с камнем -->
+    <circle cx="64" cy="46" r="13" fill="#d7dde8"/>
+    <circle cx="64" cy="46" r="7" fill="#d6a6ff"/>
+  </g>
+  <circle cx="61" cy="43" r="2.5" fill="#fff"/>
+  <!-- заклёпки -->
+  <g fill="#ffffff" stroke="#241a33" stroke-width="2">
+    <circle cx="20" cy="20" r="3.5"/><circle cx="108" cy="20" r="3.5"/>
+    <circle cx="19" cy="58" r="3.5"/><circle cx="109" cy="58" r="3.5"/>
+  </g>
+  <!-- блик -->
+  <path d="M30 30 L46 30 L30 46 Z" fill="#ffffff" opacity="0.35"/>
+</svg>

@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- лучи сияния -->
+  <g fill="#ffe27a" opacity="0.6">
+    <path d="M64 64 L50 0 L78 0 Z"/><path d="M64 64 L128 50 L128 78 Z"/>
+    <path d="M64 64 L78 128 L50 128 Z"/><path d="M64 64 L0 78 L0 50 Z"/>
+    <path d="M64 64 L100 4 L124 28 Z"/><path d="M64 64 L28 124 L4 100 Z"/>
+  </g>
+  <circle cx="64" cy="64" r="44" fill="#fff3b0" opacity="0.55"/>
+  <g stroke="#3a2410" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="rotate(45 64 64)">
+      <!-- огромный клинок с золотой кромкой -->
+      <path d="M64 -22 L86 0 L86 80 L42 80 L42 0 Z" fill="#ffc12e"/>
+      <path d="M64 -14 L79 2 L79 80 L49 80 L49 2 Z" fill="#fffbe8" stroke-width="3"/>
+      <path d="M64 -14 L79 2 L79 80 L64 80 Z" fill="#f2df9a" stroke="none"/>
+      <!-- гравировка -->
+      <path d="M64 4 L64 70" stroke="#e0b84a" stroke-width="5"/>
+      <path d="M57 20 L64 26 L71 20 M57 40 L64 46 L71 40" fill="none" stroke="#e0b84a" stroke-width="3"/>
+      <!-- гарда: ступенчатые золотые крылья -->
+      <path d="M2 68 L42 78 L86 78 L126 68 L118 86 L106 84 L112 98 L86 96 L42 96 L16 98 L22 84 L10 86 Z" fill="#ffc12e"/>
+      <path d="M14 76 L40 84 M114 76 L88 84" fill="none" stroke="#fff0a8" stroke-width="3"/>
+      <path d="M30 92 L44 90 M98 92 L84 90" fill="none" stroke="#c98a12" stroke-width="3"/>
+      <!-- большой рубин -->
+      <path d="M64 76 L77 89 L64 102 L51 89 Z" fill="#e8344a"/>
+      <!-- рукоять -->
+      <rect x="56" y="100" width="16" height="14" rx="3" fill="#8b1e2e"/>
+      <path d="M56 104 L72 107 M56 109 L72 112" stroke="#c94455" stroke-width="3"/>
+      <!-- навершие -->
+      <circle cx="64" cy="121" r="9" fill="#ffc12e"/>
+      <circle cx="64" cy="121" r="4" fill="#e8344a" stroke-width="2"/>
+    </g>
+  </g>
+  <!-- искры -->
+  <g fill="#ffffff" stroke="#e0a000" stroke-width="2" stroke-linejoin="round">
+    <path d="M18 16 l4 10 l10 4 l-10 4 l-4 10 l-4 -10 l-10 -4 l10 -4 Z"/>
+    <path d="M108 90 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 Z"/>
+    <path d="M30 98 l2 5 l5 2 l-5 2 l-2 5 l-2 -5 l-5 -2 l5 -2 Z"/>
+  </g>
+</svg>

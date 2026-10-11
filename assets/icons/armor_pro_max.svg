@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- сияние -->
+  <g fill="#ffe27a" opacity="0.55">
+    <path d="M64 66 L50 0 L78 0 Z"/><path d="M64 66 L128 52 L128 80 Z"/>
+    <path d="M64 66 L0 80 L0 52 Z"/><path d="M64 66 L110 6 L124 20 Z"/><path d="M64 66 L18 6 L4 20 Z"/>
+  </g>
+  <g stroke="#3a2410" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <!-- крылья за щитом -->
+    <path d="M30 40 Q4 30 2 52 Q10 50 14 56 Q4 62 8 76 Q16 70 24 74 Q18 84 26 92 Z" fill="#fff6d8"/>
+    <path d="M98 40 Q124 30 126 52 Q118 50 114 56 Q124 62 120 76 Q112 70 104 74 Q110 84 102 92 Z" fill="#fff6d8"/>
+    <!-- золотой обод -->
+    <path d="M22 22 L106 22 L106 62 Q106 100 64 124 Q22 100 22 62 Z" fill="#ffc12e"/>
+    <path d="M64 22 L106 22 L106 62 Q106 100 64 124 Z" fill="#e9a516" stroke="none"/>
+    <path d="M22 22 L106 22 L106 62 Q106 100 64 124 Q22 100 22 62 Z" fill="none"/>
+    <!-- поле -->
+    <path d="M31 31 L97 31 L97 62 Q97 92 64 112 Q31 92 31 62 Z" fill="#fff3c4"/>
+    <path d="M64 31 L97 31 L97 62 Q97 92 64 112 Z" fill="#f5dc8a" stroke="none"/>
+    <path d="M31 31 L97 31 L97 62 Q97 92 64 112 Q31 92 31 62 Z" fill="none"/>
+    <!-- золотой крест -->
+    <path d="M58 36 L70 36 L70 56 L90 56 L90 68 L70 68 L70 100 L58 100 L58 68 L38 68 L38 56 L58 56 Z" fill="#ffc12e"/>
+    <!-- рубин -->
+    <path d="M64 50 L76 62 L64 74 L52 62 Z" fill="#e8344a"/>
+    <!-- корона -->
+    <path d="M40 22 L44 4 L54 14 L64 0 L74 14 L84 4 L88 22 Z" fill="#ffd34d"/>
+  </g>
+  <g fill="#e8344a" stroke="#3a2410" stroke-width="2">
+    <circle cx="44" cy="6" r="3"/><circle cx="64" cy="3" r="3"/><circle cx="84" cy="6" r="3"/>
+  </g>
+  <path d="M60 56 L64 53 L67 57" fill="none" stroke="#ffb3bd" stroke-width="2.5"/>
+  <path d="M36 36 L50 36 L36 50 Z" fill="#ffffff" opacity="0.45"/>
+  <g fill="#ffffff" stroke="#e0a000" stroke-width="2" stroke-linejoin="round">
+    <path d="M112 100 l3 8 l8 3 l-8 3 l-3 8 l-3 -8 l-8 -3 l8 -3 Z"/>
+    <path d="M14 98 l2 6 l6 2 l-6 2 l-2 6 l-2 -6 l-6 -2 l6 -2 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- простой стальной меч: без камней и сияния -->
+  <g stroke="#241a33" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+    <g transform="rotate(45 64 64)">
+      <!-- клинок -->
+      <path d="M64 12 L74 24 L74 84 L54 84 L54 24 Z" fill="#dfe5ee"/>
+      <path d="M64 12 L74 24 L74 84 L64 84 Z" fill="#b4bfcf" stroke="none"/>
+      <path d="M64 12 L74 24 L74 84 L54 84 L54 24 Z" fill="none"/>
+      <!-- простая железная гарда -->
+      <rect x="38" y="84" width="52" height="10" rx="3" fill="#7d8798"/>
+      <!-- рукоять -->
+      <rect x="58" y="94" width="12" height="18" rx="3" fill="#8a5a33"/>
+      <path d="M58 99 L70 101 M58 105 L70 107" stroke="#6b4325" stroke-width="3"/>
+      <!-- навершие -->
+      <circle cx="64" cy="116" r="6" fill="#7d8798"/>
+    </g>
+  </g>
+</svg>
